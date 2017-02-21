@@ -1,0 +1,73 @@
+body, html{
+    position: relative;
+    height:100%;
+}
+
+
+.navbar-nav{
+    margin: auto;
+}
+#sideBarNav{
+    margin: auto;
+    position: fixed;
+}
+
+#pageData{
+
+
+}
+#text1{
+    background-color: white;
+    height:1000px;
+    width:50%;
+    position: relative;
+    margin:auto;
+    top:-0;
+}
+.Banner {
+    /* The image used */
+    background-image: url('../image/Banner.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Dancer {
+    /* The image used */
+    background-image: url('../image/Dancers on Beach.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Logo {
+    /* The image used */
+    background-image: url('../image/logo.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1024px) {
+    .Banner {
+        background-attachment: scroll;
+    }
+}

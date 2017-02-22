@@ -2,7 +2,10 @@ body, html{
     position: relative;
     height:100%;
 }
-
+h1{
+      font-family: 'Kreon', serif;
+  vertical-align:middle;
+}
 
 .navbar-nav{
     margin: auto;
@@ -10,19 +13,34 @@ body, html{
 #sideBarNav{
     margin: auto;
     position: fixed;
+    padding-right:10px;
+    margin-top:100px;
+}
+.nopadding{
+    margin: 0 !important;
+    padding: 0 !important;
+    top:-0;
+}
+#pageData{
+margin-top: 100px;
+margin-left: 150px;
 }
 
-#pageData{
-
-
+#siteNavBar{
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  height: 100px;
+  background-color: lightblue;
 }
 #text1{
+
     background-color: white;
-    height:1000px;
-    width:50%;
+    height:100%;
+    width:60%;
     position: relative;
     margin:auto;
-    top:-0;
+    top:0;
 }
 .Banner {
     /* The image used */
@@ -69,5 +87,11 @@ body, html{
 @media only screen and (max-device-width: 1024px) {
     .Banner {
         background-attachment: scroll;
+    }
+}
+
+@media (max-width: 767px) {
+    #sideBarNav {
+        display:none;
     }
 }

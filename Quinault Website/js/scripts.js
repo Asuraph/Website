@@ -4,9 +4,13 @@
             offset: 10
         });
     });
+    
+
+
+
 $(document).ready(function(){/* affix the navbar after scroll below header */
 $('#nav').affix({
-      offset: {
+    offset: {
         top: $('header').height()-$('#nav').height()
       }
 });	

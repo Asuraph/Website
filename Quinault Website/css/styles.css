@@ -7,11 +7,20 @@ body, html{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-left: 0;
+    padding-right: 0;
 
     
 }
+.sideBar{
+    padding-left: 15px;
+}
 .container{
 
+}
+.banner{
+margin: auto;
+    width: 70%;
 }
 
 h1{
@@ -23,11 +32,11 @@ p{
     padding:10px;
 }
 .navbar-nav{
-    margin-left: 25%;
-    margin-right:25%;
+    width:100%;
+    position: fixed;
 }
 .nav-pills{
-        border-top-right-radius: 5px;
+    border-top-right-radius: 5px;
     border-top-left-radius: 5px;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius:5px;
@@ -36,20 +45,20 @@ p{
 }
 
 #sideBarNav{
-
-    margin: auto;
     position: fixed;
-    margin-top:100px;
-    z-index: 9999;
-    
+    margin-top:15%;
+    z-index: 9999; 
 }
 
 #siteNavBar{
-  position: fixed;
-  top: 0;
-  width:100%;
-  z-index: 9999;
-  height: 100px;
+    width: 100%;
+    position: fixed;
+    opacity: 1;
+    z-index: 9999;
+}
+
+.img-responsive{
+  
 }
 .nopadding{
     margin: 0 !important;
@@ -58,8 +67,8 @@ p{
 }
 #pageData{
 
-    margin-top: 100px;
-    margin-left: 150px;
+    margin-top: 50px;
+    margin-left: 0;
 }
 
 
@@ -102,7 +111,7 @@ p{
     
     top:0;
 }
-.Banner {
+.Ban {
     /* The image used */
     background-image: url('../image/Banner.jpg');
     /* Full height */
@@ -148,7 +157,7 @@ p{
         display:none;
         position:absolute;
     }
-    .Banner{
+    .Ban{
         background-image: none;
         background-attachment: scroll !important;
         background-position: center !important; 
@@ -176,9 +185,9 @@ p{
         display:inline-block;
     }
     #pageData{
-        margin-top: 100px;
-        margin-left: 50px;
-        margin-right: -25px;
+        margin-top: 50px;
+        margin:15px;
+
 
     }
 

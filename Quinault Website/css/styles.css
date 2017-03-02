@@ -46,8 +46,9 @@ p{
 
 #sideBarNav{
     position: fixed;
-    margin-top:15%;
+    margin-top: 300px;
     z-index: 9999; 
+    font-size: 36px;
 }
 
 #siteNavBar{
@@ -153,6 +154,9 @@ p{
 
 
 @media (max-width: 767px) {
+    #siteNavBar{
+
+    }
     #sideBarNav {
         display:none;
         position:absolute;

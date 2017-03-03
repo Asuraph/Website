@@ -1,4 +1,14 @@
 
+
+    jQuery(document).ready(function ($) {
+        var options = {
+            ..
+        };
+            
+        var jssor_slider1 = new $JssorSlider$("slider1_container", options);
+        ...
+    });
+
 function count_rabbits() {
     for(var i=1; i<=3; i++) {
         // operator + concatenates strings
@@ -20,4 +30,10 @@ $(document).ready(function () {
             });
          }
      });
+});
+
+$(document).ready(function() {
+  $('[data-toggle=offcanvas]').click(function() {
+    $('.row-offcanvas').toggleClass('active');
+  });
 });

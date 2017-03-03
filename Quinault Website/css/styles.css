@@ -1,7 +1,7 @@
 body, html{
     position: relative;
     height:100%;
-    background-image: url('../image/background.jpg'); 
+    background-image: url('../image/Hogsback sunburst.jpg'); 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -21,6 +21,14 @@ body, html{
 .banner{
 margin: auto;
     width: 70%;
+}
+
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background-color: #cccccc;
+  border-radius: 1px;
 }
 
 h1{
@@ -48,7 +56,7 @@ p{
     position: fixed;
     margin-top: 300px;
     z-index: 9999; 
-    font-size: 36px;
+    font-size: 20px;
 }
 
 #siteNavBar{
@@ -74,6 +82,14 @@ p{
 
 
 #text1{
+    background-image: url('../image/Hogsback.jpg');
+    /* Full height */
+    height: 100%; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
 
@@ -88,7 +104,14 @@ p{
     top:0;
 }
 #text2{
-
+background-image: url('../image/_JAZ0756  25.jpg');
+    /* Full height */
+    height: 100%; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: white;
     height:100%;
     width:60%;
@@ -100,6 +123,71 @@ p{
     top:0;
 }
 #text3{
+background-image: url('../image/198301 CQ-1008 Boulder Pt Hogsback 25.jpg');
+    /* Full height */
+    height: 100%; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    height:100%;
+    width:60%;
+    position: relative;
+    margin-bottom: -20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    top:0;
+}
+#text4{
+background-image: url('../image/198812-74 Hogsback haze 25.jpg');
+    /* Full height */
+    height: 100%; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    height:100%;
+    width:60%;
+    position: relative;
+    margin-bottom: -20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    top:0;
+}
+#text5{
+background-image: url('../image/201301 _JAX1579 Cape Elizabeth 25.jpg');
+    /* Full height */
+    height: 100%; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    height:100%;
+    width:60%;
+    position: relative;
+    margin-bottom: -20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    top:0;
+}
+#text6{
+    background-image: url('../image/199812-041 Hogsback sunburst 25.jpg');
+    /* Full height */
+    height: 100%; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border-bottom-right-radius: 25px;
     border-bottom-left-radius:25px;
     background-color: white;
@@ -150,16 +238,22 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.sideArrow{
+    background-image:url('..image/arrow.png'); 
+
+background-position: 120px 130px;
+border: none;
+}
 /* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
 
 
 @media (max-width: 767px) {
     #siteNavBar{
-
+margin-top: -100%;
     }
     #sideBarNav {
-        display:none;
-        position:absolute;
+        margin-left:-100%;
+       
     }
     .Ban{
         background-image: none;
@@ -185,6 +279,18 @@ p{
         display:inline-block;
     }
     #text3{
+        width:100%;
+        display:inline-block;
+    }
+    #text4{
+        width:100%;
+        display:inline-block;
+    }
+    #text5{
+        width:100%;
+        display:inline-block;
+    }
+    #text6{
         width:100%;
         display:inline-block;
     }

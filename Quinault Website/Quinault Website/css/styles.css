@@ -1,0 +1,304 @@
+body, html{
+    position: relative;
+    height:100%;
+    background-image: url('../image/Hogsback sunburst.jpg'); 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 0;
+    padding-right: 0;
+
+    
+}
+.sideBar{
+    padding-left: 15px;
+}
+.container{
+
+}
+.banner{
+margin: auto;
+    width: 70%;
+}
+
+.navbar-toggle .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background-color: #cccccc;
+  border-radius: 1px;
+}
+
+h1{
+  font-family: 'Kreon', serif;
+  vertical-align:middle;
+  text-align: center;
+}
+p{
+    padding:10px;
+}
+.navbar-nav{
+    width:100%;
+    position: fixed;
+}
+.nav-pills{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius:5px;
+    vertical-align: center;
+    background-color: lightblue;
+}
+
+#sideBarNav{
+    position: fixed;
+    margin-top: 300px;
+    z-index: 9999; 
+    font-size: 20px;
+}
+
+#siteNavBar{
+    width: 100%;
+    position: fixed;
+    opacity: 1;
+    z-index: 9999;
+}
+
+.img-responsive{
+  
+}
+.nopadding{
+    margin: 0 !important;
+    padding: 0 !important;
+    top:-0;
+}
+#pageData{
+
+    margin-top: 50px;
+    margin-left: 0;
+}
+
+
+#text1{
+    background-image: url('../image/Hogsback.jpg');
+    /* Full height */
+    height: 100%; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+
+    background-color: white;
+    height:100%;
+    width:60%;
+    position: relative;
+    margin-bottom: -20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    top:0;
+}
+#text2{
+background-image: url('../image/_JAZ0756  25.jpg');
+    /* Full height */
+    height: 100%; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    height:100%;
+    width:60%;
+    position: relative;
+    margin-bottom: -20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    top:0;
+}
+#text3{
+background-image: url('../image/198301 CQ-1008 Boulder Pt Hogsback 25.jpg');
+    /* Full height */
+    height: 100%; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    height:100%;
+    width:60%;
+    position: relative;
+    margin-bottom: -20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    top:0;
+}
+#text4{
+background-image: url('../image/198812-74 Hogsback haze 25.jpg');
+    /* Full height */
+    height: 100%; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    height:100%;
+    width:60%;
+    position: relative;
+    margin-bottom: -20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    top:0;
+}
+#text5{
+background-image: url('../image/201301 _JAX1579 Cape Elizabeth 25.jpg');
+    /* Full height */
+    height: 100%; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    height:100%;
+    width:60%;
+    position: relative;
+    margin-bottom: -20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    top:0;
+}
+#text6{
+    background-image: url('../image/199812-041 Hogsback sunburst 25.jpg');
+    /* Full height */
+    height: 100%; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius:25px;
+    background-color: white;
+    height:100%;
+    width:60%;
+    position: relative;
+
+    margin-left: auto;
+    margin-right: auto;
+    
+    top:0;
+}
+.Ban {
+    /* The image used */
+    background-image: url('../image/Banner.jpg');
+    /* Full height */
+    height: 100%; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Dancer {
+    /* The image used */
+    background-image: url('../image/Dancers on Beach.jpg');
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Logo {
+    /* The image used */
+    background-image: url('../image/logo.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sideArrow{
+    background-image:url('..image/arrow.png'); 
+
+background-position: 120px 130px;
+border: none;
+}
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+
+
+@media (max-width: 767px) {
+    #siteNavBar{
+margin-top: -100%;
+    }
+    #sideBarNav {
+        margin-left:-100%;
+       
+    }
+    .Ban{
+        background-image: none;
+        background-attachment: scroll !important;
+        background-position: center !important; 
+    }
+    .Logo{
+        background-image: none;
+        background-attachment: scroll !important;
+        background-position: center !important;   
+    }
+    .Dancer{
+        background-image: none;
+        background-attachment: scroll !important;
+        background-position: center !important;   
+    }
+    #text1{
+        width:100%;
+        display:inline-block;
+    }
+    #text2{
+        width:100%;
+        display:inline-block;
+    }
+    #text3{
+        width:100%;
+        display:inline-block;
+    }
+    #text4{
+        width:100%;
+        display:inline-block;
+    }
+    #text5{
+        width:100%;
+        display:inline-block;
+    }
+    #text6{
+        width:100%;
+        display:inline-block;
+    }
+    #pageData{
+        margin-top: 50px;
+        margin:15px;
+
+
+    }
+
+}

@@ -9,18 +9,28 @@ body, html{
     background-size: cover;
     padding-left: 0;
     padding-right: 0;
-
-    
 }
+
+h1{
+  font-family: 'Kreon', serif;
+  vertical-align:middle;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+p{
+    padding:10px;
+}
+
+.nopadding{
+    margin: 0 !important;
+    padding: 0 !important;
+    top:-0;
+}
+
 .sideBar{
     padding-left: 15px;
-}
-.container{
-
-}
-.banner{
-margin: auto;
-    width: 70%;
 }
 
 .navbar-toggle .icon-bar {
@@ -31,69 +41,89 @@ margin: auto;
   border-radius: 1px;
 }
 
-h1{
-  font-family: 'Kreon', serif;
-  vertical-align:middle;
-  text-align: center;
-}
-p{
-    padding:10px;
-}
+
 .navbar-nav{
-   
-    position: fixed;
-padding-right: auto;
-
-
+    width: 100%;
 }
-p
-#navText{
-    padding-left: auto;
-    
-    vertical-align:middle;
-    text-align: center;
+
+#navText{    
+width: 100%;
 }
+
 .nav-pills{
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius:5px;
+    padding:0;
     vertical-align: center;
     background-color: lightblue;
+}
+
+#siteNavBar{
+    font-family: 'Carter One', cursive;
+    width: 60%;
+    position: fixed;
+    opacity: 1;
+    z-index: 9999;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #sideBarNav{
     font-family: 'Carter One', cursive;
     position: fixed;
-    margin-top: 100px;
+    margin-top: 75px;
     z-index: 9999; 
-    font-size: 20px;
+    font-size: 12px;
+margin-left: 20px;
+}
+.logo{
+    width: 120px;
 }
 
-#siteNavBar{
-    font-family: 'Carter One', cursive;
-    width: 100%;
-    position: fixed;
+/* Carousel code start*/
+#banner{
+z-index: 1;
+
     opacity: 1;
-    z-index: 9999;
+    margin-left:0 auto;
+    margin-right:0 auto;
+    width: 100%;
+    height: 300px;
+  position: absolute;
+
 }
 
-.img-responsive{
-  
+.carousel-control.right {
+    background-image: none;
 }
-.nopadding{
-    margin: 0 !important;
-    padding: 0 !important;
-    top:-0;
+.carousel-control.left {
+    background-image: none;
 }
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    z-index: 1;
+
+    opacity: 1;
+    margin-left:0 auto;
+    margin-right:0 auto;
+    width: 100%;
+    height: 300px;
+}
+/* Carousel code end*/
+
 #pageData{
-
+    padding-top: 50px;
     margin-top: 50px;
-    margin-left: 0;
 }
+
 
 
 #text1{
+    z-index: 2;
     background-image: url('../image/Hogsback.jpg');
     /* Full height */
     height: 100%; 
@@ -116,7 +146,7 @@ p
     top:0;
 }
 #text2{
-background-image: url('../image/_JAZ0756  25.jpg');
+    background-image: url('../image/_JAZ0756  25.jpg');
     /* Full height */
     height: 100%; 
     /* Create the parallax scrolling effect */
@@ -135,7 +165,7 @@ background-image: url('../image/_JAZ0756  25.jpg');
     top:0;
 }
 #text3{
-background-image: url('../image/198301 CQ-1008 Boulder Pt Hogsback 25.jpg');
+    background-image: url('../image/198301 CQ-1008 Boulder Pt Hogsback 25.jpg');
     /* Full height */
     height: 100%; 
     /* Create the parallax scrolling effect */
@@ -154,7 +184,7 @@ background-image: url('../image/198301 CQ-1008 Boulder Pt Hogsback 25.jpg');
     top:0;
 }
 #text4{
-background-image: url('../image/198812-74 Hogsback haze 25.jpg');
+    background-image: url('../image/198812-74 Hogsback haze 25.jpg');
     /* Full height */
     height: 100%; 
     /* Create the parallax scrolling effect */
@@ -173,7 +203,7 @@ background-image: url('../image/198812-74 Hogsback haze 25.jpg');
     top:0;
 }
 #text5{
-background-image: url('../image/201301 _JAX1579 Cape Elizabeth 25.jpg');
+    background-image: url('../image/201301 _JAX1579 Cape Elizabeth 25.jpg');
     /* Full height */
     height: 100%; 
     /* Create the parallax scrolling effect */
@@ -212,75 +242,25 @@ background-image: url('../image/201301 _JAX1579 Cape Elizabeth 25.jpg');
     
     top:0;
 }
-.Ban {
-    /* The image used */
-    background-image: url('../image/Banner.jpg');
-    /* Full height */
-    height: 100%; 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
-.Dancer {
-    /* The image used */
-    background-image: url('../image/Dancers on Beach.jpg');
-    /* Full height */
-    height: 100%; 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.Logo {
-    /* The image used */
-    background-image: url('../image/logo.jpg');
-
-    /* Full height */
-    height: 100%; 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.sideArrow{
-    background-image:url('..image/arrow.png'); 
-
-background-position: 120px 130px;
-border: none;
-}
-/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+/* Mobile Friendly Css */
 
 
 @media (max-width: 767px) {
     #siteNavBar{
-margin-top: -100%;
+        visibility: hidden;
+    }
+    #banner{
+        visibility: hidden;
     }
     #sideBarNav {
         margin-left:-100%;
-       
+
     }
-    .Ban{
-        background-image: none;
-        background-attachment: scroll !important;
-        background-position: center !important; 
-    }
-    .Logo{
-        background-image: none;
-        background-attachment: scroll !important;
-        background-position: center !important;   
-    }
-    .Dancer{
-        background-image: none;
-        background-attachment: scroll !important;
-        background-position: center !important;   
+    #pageData{
+        margin-top:0;
+        margin-left:25px;
+        margin-right:25px;
     }
     #text1{
         width:100%;
@@ -306,11 +286,4 @@ margin-top: -100%;
         width:100%;
         display:inline-block;
     }
-    #pageData{
-        margin-top: 50px;
-        margin:15px;
-
-
     }
-
-}

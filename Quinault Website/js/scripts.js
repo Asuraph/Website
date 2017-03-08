@@ -7,7 +7,7 @@ function count_rabbits() {
     }
 }
 
-window.addEventListener("hashchange", function() { scrollBy(0,-50) })
+//window.addEventListener("hashchange", function() { scrollBy(0,-50) })
 $(document).ready(function () {
         
      $("#sideBarNav a").on('click', function(event) {

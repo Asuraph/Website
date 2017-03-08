@@ -40,8 +40,18 @@ p{
     padding:10px;
 }
 .navbar-nav{
-    width:100%;
+   
     position: fixed;
+padding-right: auto;
+
+
+}
+p
+#navText{
+    padding-left: auto;
+    
+    vertical-align:middle;
+    text-align: center;
 }
 .nav-pills{
     border-top-right-radius: 5px;
@@ -53,13 +63,15 @@ p{
 }
 
 #sideBarNav{
+    font-family: 'Carter One', cursive;
     position: fixed;
-    margin-top: 300px;
+    margin-top: 100px;
     z-index: 9999; 
     font-size: 20px;
 }
 
 #siteNavBar{
+    font-family: 'Carter One', cursive;
     width: 100%;
     position: fixed;
     opacity: 1;

@@ -1,7 +1,7 @@
 body, html{
     position: relative;
     height:100%;
-    background-image: url('../image/Hogsback sunburst.jpg'); 
+    background-image: url('../image/sand.jpg'); 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -22,6 +22,9 @@ h1{
 p{
     padding:10px;
 }
+#appear{
+
+}
 
 .nopadding{
     margin: 0 !important;
@@ -31,6 +34,7 @@ p{
 
 .sideBar{
     padding-left: 15px;
+    margin-top:0px;
 }
 
 .navbar-toggle .icon-bar {
@@ -61,12 +65,12 @@ width: 100%;
 }
 
 #siteNavBar{
+    padding-top: 425px;
     font-family: 'Carter One', cursive;
-    width: 60%;
-    position: fixed;
+    width: 100%;
+    position: absolute;
     opacity: 1;
     z-index: 9999;
-    position: relative;
     margin-left: auto;
     margin-right: auto;
 }
@@ -81,6 +85,7 @@ margin-left: 20px;
 }
 .logo{
     width: 120px;
+    margin-top: 200px;
 }
 
 /* Carousel code start*/
@@ -91,11 +96,13 @@ z-index: 1;
     margin-left:0 auto;
     margin-right:0 auto;
     width: 100%;
-    height: 300px;
+    height: 600px;
   position: absolute;
 
 }
-
+#navbar-right{
+    text-align: justify;
+}
 .carousel-control.right {
     background-image: none;
 }
@@ -111,13 +118,14 @@ z-index: 1;
     margin-left:0 auto;
     margin-right:0 auto;
     width: 100%;
-    height: 300px;
+    height: 600px;
 }
 /* Carousel code end*/
 
 #pageData{
+font-family: 'Carter One', cursive;
     padding-top: 50px;
-    margin-top: 50px;
+    margin-top: 00px;
 }
 
 
@@ -143,7 +151,7 @@ z-index: 1;
     margin-left: auto;
     margin-right: auto;
     
-    top:0;
+    top:400px;
 }
 #text2{
     background-image: url('../image/_JAZ0756  25.jpg');
@@ -244,6 +252,13 @@ z-index: 1;
 }
 
 /* Mobile Friendly Css */
+@media (max-height: 1075px) {
+.logo{
+    visibility: hidden;
+    width: 120px;
+    margin-top: 0px;
+}
+}
 
 
 @media (max-width: 767px) {

@@ -1,4 +1,15 @@
 
+var  mn = $("#siteNavBar");
+    mns = ".stickyScroll";
+    hdr = $('#banner').height();
+
+$(window).scroll(function() {
+  if( $(this).scrollTop() > hdr) {
+    mn.addClass(mns);
+  } else {
+    mn.removeClass(mns);
+  }
+});
 
 function count_rabbits() {
     for(var i=1; i<=3; i++) {
@@ -6,15 +17,7 @@ function count_rabbits() {
         alert("Rabbit "+i+" out of the hat!")
     }
 }
-$(document).ready(function () {
-$("#siteNavBar").hide(); //hide your div initially
-    $(window).scroll(function() {
-        // once bottom of div is scrolled past
-        if($(body).scrollTop() >= (500px) {
-            $("#siteNavBar").show(); //reached the desired point -- show div
-        }
-    });
-    });
+
 //window.addEventListener("hashchange", function() { scrollBy(0,-50) })
 $(document).ready(function () {
         
@@ -37,3 +40,6 @@ $(document).ready(function() {
   });
 });
 
+function myFunction(navButton){
+
+}

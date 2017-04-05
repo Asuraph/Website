@@ -47,7 +47,7 @@ p{
 
 
 .navbar-nav{
-    width: 100%;
+    
 }
 
 #navText{    
@@ -64,16 +64,14 @@ width: 100%;
     background-color: lightblue;
 }
 
-#siteNavBar{
+    .siteNavBar{
     background-color: lightblue;
     font-family: 'Carter One', cursive;
     width: 100%;
-    position: absolute;
+   
     opacity: 1;
-    z-index: 9999;
-    margin-top:375px;
-    margin-left: auto;
-    margin-right: auto;
+    
+
 
 }
 
@@ -89,14 +87,14 @@ position:fixed;
     font-size: 12px;
 margin-left: 20px;
 }
-.logo{
-    width: 120px;
-    margin-top: 200px;
+#logo{
+    width: 75px;
+    alignment-baseline: left;
 }
 
 /* Carousel code start*/
 #banner{
-z-index: 1;
+
 top:0;
     opacity: 1;
     margin-left:0 auto;
@@ -107,7 +105,7 @@ top:0;
 
 }
 #navbar-right{
-    text-align: justify;
+    
 }
 .carousel-control.right {
     background-image: none;
@@ -118,7 +116,7 @@ top:0;
 
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-    z-index: 1;
+    z-index: 0;
 
     opacity: 1;
     margin-left:0 auto;
@@ -129,10 +127,16 @@ top:0;
 /* Carousel code end*/
 
 #pageData{
+    
 font-family: 'Carter One', cursive;
-    padding-top: 50px;
+    padding-top: 200px;
     margin-top: 00px;
+/*parallax*/
 
+    perspective: 10px;
+  
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 
@@ -151,14 +155,14 @@ font-family: 'Carter One', cursive;
     border-top-left-radius: 25px;
 
     background-color: white;
-    height:100%;
     width:60%;
     position: relative;
     margin-bottom: -20px;
     margin-left: auto;
     margin-right: auto;
+    transform: translateZ(-1px);
     
-    top:400px;
+    
 }
 #text2{
     z-index: 2;
@@ -177,7 +181,7 @@ font-family: 'Carter One', cursive;
     margin-bottom: -20px;
     margin-left: auto;
     margin-right: auto;
-    
+    transform: translateZ(-1px);
     top:0;
 }
 #text3{
@@ -197,7 +201,7 @@ font-family: 'Carter One', cursive;
     margin-bottom: -20px;
     margin-left: auto;
     margin-right: auto;
-    
+    transform: translateZ(-1px);
     top:0;
 }
 #text4{
@@ -217,7 +221,7 @@ font-family: 'Carter One', cursive;
     margin-bottom: -20px;
     margin-left: auto;
     margin-right: auto;
-    
+    transform: translateZ(-1px);
     top:0;
 }
 #text5{
@@ -237,7 +241,7 @@ font-family: 'Carter One', cursive;
     margin-bottom: -20px;
     margin-left: auto;
     margin-right: auto;
-    
+    transform: translateZ(-1px);
     top:0;
 }
 #text6{
@@ -259,21 +263,25 @@ font-family: 'Carter One', cursive;
 
     margin-left: auto;
     margin-right: auto;
-    
+    transform: translateZ(-1px) scale(1);
     top:0;
 }
 
+
 /* Mobile Friendly Css */
-@media (max-height: 1075px) {
-.logo{
-    visibility: hidden;
-    width: 120px;
-    margin-top: 0px;
+@media (max-width: 1075px) {
+#logo{
+    width: 45PX;
+    
 }
 }
 
 
 @media (max-width: 767px) {
+    #logo{
+    width: 75PX;
+    
+}
     #siteNavBar{
         visibility: ;
     }
@@ -288,8 +296,8 @@ font-family: 'Carter One', cursive;
         visibility: visible;
     }
     #pageData{
-        margin-top:0;
-        margin-left:25px;
+        margin-top:-350px;
+         margin-left:25px;
         margin-right:25px;
     }
     #text1{

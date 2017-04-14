@@ -68,7 +68,8 @@ width: 100%;
     background-color: lightblue;
     font-family: 'Carter One', cursive;
     width: 100%;
-   
+   margin-left:0 auto;
+    margin-right:0 auto;
     opacity: 1;
     
 
@@ -127,7 +128,7 @@ top:0;
 /* Carousel code end*/
 
 #pageData{
-    
+
 font-family: 'Carter One', cursive;
     padding-top: 200px;
     margin-top: 00px;
@@ -137,6 +138,7 @@ font-family: 'Carter One', cursive;
   
   overflow-x: hidden;
   overflow-y: auto;
+
 }
 
 
@@ -148,7 +150,7 @@ font-family: 'Carter One', cursive;
     height: 100%; 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     border-top-right-radius: 25px;
@@ -161,8 +163,7 @@ font-family: 'Carter One', cursive;
     margin-left: auto;
     margin-right: auto;
     transform: translateZ(-1px);
-    
-    
+box-shadow: 10px 10px 10px rgba(0,0,0,4);    
 }
 #text2{
     z-index: 2;
@@ -183,7 +184,7 @@ font-family: 'Carter One', cursive;
     margin-right: auto;
     transform: translateZ(-1px);
     top:0;
-}
+box-shadow: 10px 10px 10px rgba(0,0,0,4);}
 #text3{
     z-index: 2;
     background-image: url('../image/198301 CQ-1008 Boulder Pt Hogsback 25.jpg');
@@ -203,7 +204,7 @@ font-family: 'Carter One', cursive;
     margin-right: auto;
     transform: translateZ(-1px);
     top:0;
-}
+box-shadow: 10px 10px 10px rgba(0,0,0,4);}
 #text4{
     z-index: 2;
     background-image: url('../image/198812-74 Hogsback haze 25.jpg');
@@ -223,7 +224,7 @@ font-family: 'Carter One', cursive;
     margin-right: auto;
     transform: translateZ(-1px);
     top:0;
-}
+box-shadow: 10px 10px 10px rgba(0,0,0,4);}
 #text5{
     z-index: 2;
     background-image: url('../image/201301 _JAX1579 Cape Elizabeth 25.jpg');
@@ -243,7 +244,7 @@ font-family: 'Carter One', cursive;
     margin-right: auto;
     transform: translateZ(-1px);
     top:0;
-}
+box-shadow: 10px 10px 10px rgba(0,0,0,4);}
 #text6{
     z-index: 2;
     background-image: url('../image/199812-041 Hogsback sunburst 25.jpg');
@@ -265,6 +266,7 @@ font-family: 'Carter One', cursive;
     margin-right: auto;
     transform: translateZ(-1px) scale(1);
     top:0;
+    box-shadow: 10px 10px 10px rgba(0,0,0,4);
 }
 
 
